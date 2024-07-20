@@ -39,3 +39,4 @@ images.forEach((src, index) => {
 });
 
 let sayi = 9999999;
+let date = new date();
