@@ -39,24 +39,3 @@ images.forEach((src, index) => {
 });
 
 
-dodocument.addEventListener('DOMContentLoaded', function () {
-    var modal = document.getElementById('imageModal'); // Modal ID'sini buraya ekleyin
-
-    modal.addEventListener('show.bs.modal', function () {
-        // Modal gösterildiðinde çalýþacak kod
-        setTimeout(function () {
-            var backdrop = document.querySelector('.modal-backdrop');
-            if (backdrop) {
-                backdrop.classList.add('blur-backdrop');
-            }
-        }, 10); // Arka planýn oluþmasý için kýsa bir gecikme
-    });
-
-    modal.addEventListener('hidden.bs.modal', function () {
-        // Modal gizlendiðinde çalýþacak kod
-        var backdrop = document.querySelector('.modal-backdrop');
-        if (backdrop) {
-            backdrop.classList.remove('blur-backdrop');
-        }
-    });
-});
