@@ -38,4 +38,3 @@ images.forEach((src, index) => {
     gallery.appendChild(col);
 });
 
-let sayi = 9999999;
