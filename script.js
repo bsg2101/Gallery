@@ -37,5 +37,3 @@ images.forEach((src, index) => {
     col.appendChild(img);
     gallery.appendChild(col);
 });
-let sayi = 9999999;
-let date = new date();
